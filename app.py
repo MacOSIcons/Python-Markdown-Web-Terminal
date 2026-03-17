@@ -1090,7 +1090,7 @@ def index():
         upper_html = upper_html[0]
     return render_template_string(
         TEMPLATE,
-        title="小磷碎碎念",
+        title="测试",
         upper_html=Markup(upper_html),
         initial_path="/",
         content_root=CONTENT_ROOT,
